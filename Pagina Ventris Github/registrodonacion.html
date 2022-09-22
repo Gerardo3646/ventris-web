@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="https://kit.fontawesome.com/6730fffe08.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Ventris</title>
+</head>
+
+<body>
+    <!--Barra Menu de Opciones-->
+    <header class="header">
+        <nav class="nav">
+            <img  class="logo" src="assets/img/logo.webp" alt="logo" href="index.html">
+            <button class="nav-toggle" aria-label="Abrir Menú"><i class="fa-solid fa-bars"></i></button>  
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Donantes</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+    <!--Formulario-->
+    <form class="form">
+        <h2 class="form_title">Registro Donantes</h2>
+        <p class="form_paragraph">Completa la información</p>
+
+        <div class="form_container">
+            <div class="form_group">
+                <input type="text" id="id" class="form_input" placeholder=" ">
+                <label for="id" class="form_label">ID_MUESTRA</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="ovocitos" class="form_input" placeholder=" ">
+                <label for="ovocitos" class="form_label">Ovocitos</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="crioval" class="form_input" placeholder=" ">
+                <label for="crioval" class="form_label">Crioval</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="banco" class="form_input" placeholder=" ">
+                <label for="banco" class="form_label">Banco</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="canister" class="form_input" placeholder=" ">
+                <label for="canister" class="form_label">Canister</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="fecha" class="form_input" placeholder=" ">
+                <label for="fecha" class="form_label">Fecha</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="cantidad" class="form_input" placeholder=" ">
+                <label for="cantidad" class="form_label">Cantidad</label>
+            </div>
+            <div class="form_group">
+                <input type="text" id="status" class="form_input" placeholder=" ">
+                <label for="status" class="form_label">Status</label>
+            </div>
+            <div class="form_group">
+                <input type="select" id="iddon" class="form_input" placeholder=" ">
+                <label for="iddon" class="form_label">ID_Donador</label>
+            </div>
+
+            <input type="submit" class="form_submit" value="Registrar">
+        </div>
+    </form>
+
+    
+</body>
+</html>
