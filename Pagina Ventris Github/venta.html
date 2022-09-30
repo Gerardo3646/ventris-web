@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabla.css">
+    <script src="https://kit.fontawesome.com/6730fffe08.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Ventris</title>
+</head>
+
+<body>
+    <!--Barra Menu de Opciones-->
+    <header class="header">
+    <nav class="nav">
+        <img  class="logo" src="assets/img/logo.webp" alt="logo">
+        <button class="nav-toggle" aria-label="Abrir Menú"><i class="fa-solid fa-bars"></i></button>
+
+        <!--Buscador-->
+
+
+        <!--Fin del Buscador-->
+
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+            <li class="nav-menu-item"><a href="donantes.html" class="nav-menu-link nav-link">Donadores</a></li>
+            <li class="nav-menu-item"><a href="venta.html" class="nav-menu-link nav-link">Ventas</a></li>
+        </ul>
+    </nav>
+</header>
+    <!--Termina Menu de Opciones-->
+
+    <!--Comienza la tabla de Muestra-->
+    <div class="container">
+        <table class="table">
+            <caption>Tabla de Ventas</caption>
+            <thead>
+                <tr>
+                    <th>ID_VENTAS</th>
+                    <th>FECHA</th>
+                    <th>CLAVE DONADOR</th>
+                    <th>OBSERVACION</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td data-label="ID_VENTAS">1</td>
+                    <td data-label="FECHA">20/12/2022</td>
+                    <td data-label="CLAVE DONADOR">3646</td>
+                    <td data-label="OBSERVACION">Sin observacion</td>
+                </tr>
+                <tr>
+                    <td data-label="ID_VENTAS">2</td>
+                    <td data-label="FECHA">31/10/2022</td>
+                    <td data-label="CLAVE DONADOR">4718</td>
+                    <td data-label="OBSERVACION">Tiene Herpes</td>
+                </tr>
+                <tr>
+                    <td data-label="ID_VENTAS">3</td>
+                    <td data-label="FECHA">17/06/2022</td>
+                    <td data-label="CLAVE DONADOR">1107</td>
+                    <td data-label="OBSERVACION">Se aproxima fecha de vencimiento</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <!--Termina Ejemplo Tabla-->

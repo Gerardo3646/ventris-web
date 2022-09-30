@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="https://kit.fontawesome.com/6730fffe08.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Ventris</title>
+</head>
+
+<body>
+    <!--Barra Menu de Opciones-->
+    <header class="header">
+        <nav class="nav">
+            <img  class="logo" src="assets/img/logo.webp" alt="logo" href="index.html">
+            <button class="nav-toggle" aria-label="Abrir Menú"><i class="fa-solid fa-bars"></i></button>  
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+            <li class="nav-menu-item"><a href="donantes.html" class="nav-menu-link nav-link">Donadores</a></li>
+            <li class="nav-menu-item"><a href="venta.html" class="nav-menu-link nav-link">Ventas</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+    <!--Formulario-->
+    <form class="form">
+        <h2 class="form_title">Registro de Donantes</h2>
+        <p class="form_paragraph">Favor de completar toda la información</p>
+
+            <!--Clave de Donador-->
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="select" id="iddon" class="form_input" placeholder=" ">
+                    <label for="iddon" class="form_label">Clave Donador</label>
+            </div>
+
+            <!--Genero Opciones-->
+            <div class="form_group">
+                <select type="option" id="ovocitos" class="form_input" placeholder=" ">
+                    <option value="">Seleccione una opcion</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+                <label for="genero" class="form_label">Genero</label>  
+            </div>
+
+            <input type="submit" class="form_submit" value="Registrar">
+        </div>
+    </form>
+
+    
+</body>
+</html>

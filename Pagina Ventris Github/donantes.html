@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabla.css">
+    <script src="https://kit.fontawesome.com/6730fffe08.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Ventris</title>
+</head>
+
+<body>
+    <!--Barra Menu de Opciones-->
+    <header class="header">
+    <nav class="nav">
+        <img  class="logo" src="assets/img/logo.webp" alt="logo">
+        <button class="nav-toggle" aria-label="Abrir Menú"><i class="fa-solid fa-bars"></i></button>
+
+        <!--Buscador-->
+
+
+        <!--Fin del Buscador-->
+
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+            <li class="nav-menu-item"><a href="donantes.html" class="nav-menu-link nav-link">Donadores</a></li>
+            <li class="nav-menu-item"><a href="venta.html" class="nav-menu-link nav-link">Ventas</a></li>
+            <li class="nav-menu-item"><a href="registrodonante.html" class="nav-menu-link nav-link">Registrar</a></li>
+        </ul>
+    </nav>
+</header>
+    <!--Termina Menu de Opciones-->
+
+    <!--Comienza la tabla de Muestra-->
+    <div class="container">
+        <table class="table">
+            <caption>Tabla Muestra</caption>
+            <thead>
+                <tr>
+                    <th>ID_DONADOR</th>
+                    <th>CLAVE DONADOR</th>
+                    <th>GENERO</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td data-label="ID_DONADOR">1</td>
+                    <td data-label="CLAVE DONADOR">3646</td>
+                    <td data-label="GENERO">Masculino</td>
+                </tr>
+                <tr>
+                    <td data-label="ID_DONADOR">2</td>
+                    <td data-label="CLAVE DONADOR">4718</td>
+                    <td data-label="GENERO">Masculino</td>
+                </tr>
+                <tr>
+                    <td data-label="ID_DONADOR">3</td>
+                    <td data-label="CLAVE DONADOR">0127</td>
+                    <td data-label="GENERO">Femenino</td>
+                </tr>
+                <tr>
+                    <td data-label="ID_MUESTRA">4</td>
+                    <td data-label="CLAVE DONADOR">5060</td>
+                    <td data-label="GENERO">Masculino</td>
+                </tr>
+                <tr>
+                    <td data-label="ID_MUESTRA">5</td>
+                    <td data-label="CLAVE DONADOR">1107</td>
+                    <td data-label="GENERO">Femenino</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <!--Termina Ejemplo Tabla-->
